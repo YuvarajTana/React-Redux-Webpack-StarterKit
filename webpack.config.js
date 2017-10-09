@@ -18,11 +18,15 @@ const config = {
 					 	presets: ['env','react']
 					}
 				}
+			},
+			{
+				test: /\.css$/,
+				use: [ 'style-loader', 'css-loader' ]
 			}
 		]
 	},
 	resolve:{
-		extensions:['.js','.jsx']
+		extensions:['.js','.jsx','.css']
 	},
 	devServer:{
 		contentBase: path.join(__dirname, 'dist')
