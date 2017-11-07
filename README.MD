@@ -3,7 +3,7 @@
 To starter working this boipolerate project make sure you have installed node and npm. you can also use yark package manager.
 
 
-##Step1: 
+## Step1: 
 ```
 	yarn install
 	
@@ -11,7 +11,7 @@ To starter working this boipolerate project make sure you have installed node an
 	
 	npm install
 ```
-##Step2:
+## Step2:
 ```
 	yarn start
 	
