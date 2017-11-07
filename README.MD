@@ -4,18 +4,18 @@ To starter working this boipolerate project make sure you have installed node an
 
 
 ##Step1: 
+```
+	yarn install
 	
-	```
-	yarn insatll 
-		or 
-	npm insatll
-	```
-
+	or 
+	
+	npm install
+```
 ##Step2:
-
-	```
-	yarn start 
-		or 
+```
+	yarn start
+	
+	or
+	
 	npm run start
-	```
-
+```
