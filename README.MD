@@ -1,21 +1,12 @@
-# React, webpack3 and babel starter kit.
+## React, Redux, Webpack, and Babel starter kit.
+	- Its minimal React starter kit to get start working and exploring react world.
 
-To starter working this boipolerate project make sure you have installed node and npm. you can also use yark package manager.
-
-
-## Step1: 
-```
-	yarn install
+### Step1: Make sure you installed Node and npm in your system and install packages by runnning below command.
+	*yarn install	
+		or
+	*npm run install
 	
-	or 
-	
-	npm install
-```
-## Step2:
-```
-	yarn start
-	
+## Step2: Run the webpack dev server 
+	*yarn start
 	or
-	
-	npm run start
-```
+	*npm run start
