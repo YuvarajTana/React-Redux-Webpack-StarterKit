@@ -1,28 +1,39 @@
 {
-  "name": "react-redux-todo-app",
+  "name": "React-Redux-Webpack-StarterKit",
   "version": "1.0.0",
+  "description": "To starter working this boipolerate project make sure you have installed node and npm. you can also use yark package manager.",
   "main": "index.js",
-  "author": "Yuvaraj Tana <yuvaraj@tymtix.com>",
-  "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuvarajTana/React-Redux-Webpack-StarterKit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuvarajTana/React-Redux-Webpack-StarterKit/issues"
+  },
+  "homepage": "https://github.com/YuvarajTana/React-Redux-Webpack-StarterKit#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.7",
-    "style-loader": "^0.19.0",
-    "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
-  },
-  "dependencies": {
-    "prop-types": "^15.6.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-redux": "^5.0.6",
-    "redux": "^3.7.2"
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
   }
 }
