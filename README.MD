@@ -1,19 +1,15 @@
-### React, Redux, Webpack, and Babel starter kit.
+### React, Redux, Webpack, and Babel starter kit to learn React
 	Its minimal React starter kit to get start working and exploring react world.
 
-#### Step1: Make sure you installed Node and npm in your system and install packages by runnning below command.
+- Make sure you installed Node in your system
+
+#### Step1: Install packages by runnning below command.
 
 ```
-
-yarn install 
-   or
-npm run install
+npm run install or yarn install 
 ```
 
 #### Step2: Run the webpack dev server 
 ```
-
-yarn start 
-	or 
-npm run start 
+npm run start or yarn start 
 ```

@@ -1,5 +1,3 @@
-const webpack = require('webpack');
-
 module.exports = {
   entry: './src/index.js',
   module: {
@@ -10,9 +8,9 @@ module.exports = {
         	use: ['babel-loader']
       	},
       	{
-			test: /\.css$/,
-			use: [ 'style-loader', 'css-loader' ]
-		}
+			    test: /\.css$/,
+			    use: [ 'style-loader', 'css-loader' ]
+		    }
     ]
   },
   resolve: {
